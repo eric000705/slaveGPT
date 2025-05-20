@@ -392,7 +392,7 @@ sendToGptBtn.addEventListener("click", async () => {
   sendToGptBtn.classList.add("running");
 
   const apiKey = document.getElementById("apiKey").value.trim();
-  const model = document.getElementById("modelName").value.trim();
+  const model = "gpt-4o-mini";
   const searchArea = document.getElementById("searcharea").value.trim();
   const promptTemplate = promptBox.value.trim();
   const searchItems = searchListEl.value.trim().split(/\n+/);
